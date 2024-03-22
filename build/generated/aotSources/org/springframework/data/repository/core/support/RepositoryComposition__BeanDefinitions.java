@@ -16,7 +16,7 @@ public class RepositoryComposition__BeanDefinitions {
    */
   public static class RepositoryFragments {
     /**
-     * Get the bean instance supplier for 'jpa.OwnerRepository.fragments#0'.
+     * Get the bean instance supplier for 'jpa.VetRepository.fragments#0'.
      */
     private static BeanInstanceSupplier<RepositoryFragmentsFactoryBean> getFragmentsInstanceSupplier(
         ) {
@@ -37,7 +37,7 @@ public class RepositoryComposition__BeanDefinitions {
     }
 
     /**
-     * Get the bean instance supplier for 'jpa.VetRepository.fragments#0'.
+     * Get the bean instance supplier for 'jpa.OwnerRepository.fragments#0'.
      */
     private static BeanInstanceSupplier<RepositoryFragmentsFactoryBean> getFragmentsInstanceSupplier1(
         ) {

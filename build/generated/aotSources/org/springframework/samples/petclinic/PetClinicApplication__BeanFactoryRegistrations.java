@@ -560,11 +560,11 @@ public class PetClinicApplication__BeanFactoryRegistrations {
     beanFactory.registerBeanDefinition("org.springframework.data.jpa.util.JpaMetamodelCacheCleanup", JpaMetamodelCacheCleanup__BeanDefinitions.getJpaMetamodelCacheCleanupBeanDefinition());
     beanFactory.registerBeanDefinition("org.springframework.data.jpa.repository.support.JpaEvaluationContextExtension", JpaEvaluationContextExtension__BeanDefinitions.getJpaEvaluationContextExtensionBeanDefinition());
     beanFactory.registerBeanDefinition("jpa.named-queries#0", PropertiesBasedNamedQueries__BeanDefinitions.getNamedqueriesBeanDefinition());
-    beanFactory.registerBeanDefinition("jpa.OwnerRepository.fragments#0", RepositoryComposition__BeanDefinitions.RepositoryFragments.getFragmentsBeanDefinition());
-    beanFactory.registerBeanDefinition("ownerRepository", OwnerRepository__BeanDefinitions.getOwnerRepositoryBeanDefinition());
-    beanFactory.registerBeanDefinition("jpa.named-queries#1", PropertiesBasedNamedQueries__BeanDefinitions.getNamedqueriesBeanDefinition1());
-    beanFactory.registerBeanDefinition("jpa.VetRepository.fragments#0", RepositoryComposition__BeanDefinitions.RepositoryFragments.getFragmentsBeanDefinition1());
+    beanFactory.registerBeanDefinition("jpa.VetRepository.fragments#0", RepositoryComposition__BeanDefinitions.RepositoryFragments.getFragmentsBeanDefinition());
     beanFactory.registerBeanDefinition("vetRepository", VetRepository__BeanDefinitions.getVetRepositoryBeanDefinition());
+    beanFactory.registerBeanDefinition("jpa.named-queries#1", PropertiesBasedNamedQueries__BeanDefinitions.getNamedqueriesBeanDefinition1());
+    beanFactory.registerBeanDefinition("jpa.OwnerRepository.fragments#0", RepositoryComposition__BeanDefinitions.RepositoryFragments.getFragmentsBeanDefinition1());
+    beanFactory.registerBeanDefinition("ownerRepository", OwnerRepository__BeanDefinitions.getOwnerRepositoryBeanDefinition());
     beanFactory.registerBeanDefinition("org.springframework.data.web.config.ProjectingArgumentResolverRegistrar", ProjectingArgumentResolverRegistrar__BeanDefinitions.getProjectingArgumentResolverRegistrarBeanDefinition());
     beanFactory.registerBeanDefinition("projectingArgumentResolverBeanPostProcessor", ProjectingArgumentResolverRegistrar__BeanDefinitions.getProjectingArgumentResolverBeanPostProcessorBeanDefinition());
     beanFactory.registerBeanDefinition("org.springframework.data.web.config.SpringDataWebConfiguration", SpringDataWebConfiguration__BeanDefinitions.getSpringDataWebConfigurationBeanDefinition());
