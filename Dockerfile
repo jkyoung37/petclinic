@@ -6,4 +6,4 @@ COPY src ./src
 RUN ./mvnw package -Dmaven.test.skip=true -Dcheckstyle.skip=true
 RUN mv target/*.jar /app/spring-petclinic.jar
 CMD ["java", "-jar", "/app/spring-petclinic.jar"]
-EXPOSE 8080
+EXPOSE 8082
